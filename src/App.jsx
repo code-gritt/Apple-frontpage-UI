@@ -1,7 +1,13 @@
+import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
+
 function App() {
   return (
     <>
-      <h1 className="text-3xl font-bold underline text-center">Hello world!</h1>
+      <main className="bg-black">
+        <Navbar />
+        <Footer />
+      </main>
     </>
   );
 }
